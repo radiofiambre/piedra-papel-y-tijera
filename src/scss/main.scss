@@ -1,9 +1,11 @@
+// PIXEL 7: 412 * 975
+
 * {
   padding: 0;
   box-sizing: border-box;
 
   font-family: "Jersey 15";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   color: #06005a;
   text-align: center;
@@ -29,6 +31,7 @@ h1 {
 
 h2 {
   font-size: 2.2em;
+  margin: 0px;
 }
 
 p {
@@ -39,11 +42,14 @@ span {
   font-size: 1.2em;
 }
 
+section {
+  margin: 15px 0px;
+}
+
 .gameContainer {
-  margin-top: 120px;
+  margin-top: 40px;
   display: flex;
-  flex-direction: row;
-  gap: 100px;
+  flex-direction: column;
 
   &_player {
     display: flex;
@@ -55,7 +61,7 @@ span {
       align-items: center;
       justify-content: center;
       gap: 40px;
-      margin: 20px 0px;
+      margin: 15px 0px;
     }
   }
 }
@@ -109,4 +115,30 @@ span {
   border-radius: 50px;
 
   font-size: 1.8em;
+}
+
+
+
+
+/* tablet */
+@media screen and (min-width:768px) {
+
+}
+
+
+/* notebook */
+@media screen and (min-width:1024px) {
+
+}
+
+
+/* large screens */
+@media screen and (min-width:1440px) {
+
+}
+
+
+/* extra large screens */
+@media screen and (min-width:1900px) {
+
 }
